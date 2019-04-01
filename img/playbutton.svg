@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="443" height="443" viewBox="0 0 443 443">
+  <g id="Видео" transform="translate(-739 -658)">
+    <g id="Круги">
+      <circle id="Ellipse_3750" data-name="Ellipse 3750" cx="71.5" cy="71.5" r="71.5" transform="translate(889 808)" fill="#fff" opacity="0.4"/>
+      <circle id="Ellipse_3749" data-name="Ellipse 3749" cx="71.5" cy="71.5" r="71.5" transform="translate(889 808)" fill="#fff" opacity="0.5"/>
+      <circle id="Ellipse_3747" data-name="Ellipse 3747" cx="50.5" cy="50.5" r="50.5" transform="translate(910 829)" fill="#fff" opacity="0.65"/>
+      <circle id="Ellipse_3748" data-name="Ellipse 3748" cx="29.5" cy="29.5" r="29.5" transform="translate(931 850)" fill="#fff" opacity="0.8"/>
+      <g id="Разводы">
+        <g id="Ellipse_3751" data-name="Ellipse 3751" transform="translate(866 786)" fill="none" stroke="#fff" stroke-width="1" opacity="0.05">
+          <circle cx="94" cy="94" r="94" stroke="none"/>
+          <circle cx="94" cy="94" r="93.5" fill="none"/>
+        </g>
+        <g id="Ellipse_3752" data-name="Ellipse 3752" transform="translate(845 764)" fill="none" stroke="#fff" stroke-width="1" opacity="0.02">
+          <circle cx="115" cy="115" r="115" stroke="none"/>
+          <circle cx="115" cy="115" r="114.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="play-button">
+      <path id="Pfad_6335" data-name="Pfad 6335" d="M157.207,113.255l-7.769-5.113c-1.341-.882-2.438-.29-2.438,1.315v10.76c0,1.6,1.1,2.2,2.442,1.32l7.762-5.079A1.777,1.777,0,0,0,157.207,113.255Zm-1.035,2.13-6.9,4.515c-.447.293-.814.1-.814-.44v-9.246c0-.535.366-.732.813-.438l6.9,4.542A.592.592,0,0,1,156.172,115.385Z" transform="translate(808.158 764.326)" fill="#0a0a0a"/>
+      <path id="Pfad_6336" data-name="Pfad 6336" d="M7506.922-19464.01l-.924.266-.238,8.607.238,3.725,9.48-6.312-4.568-3.486" transform="translate(-6550 20337)" fill="#0a0a0a"/>
+    </g>
+  </g>
+</svg>

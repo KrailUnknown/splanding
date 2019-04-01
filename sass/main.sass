@@ -1,0 +1,626 @@
+@import  "fonts.sass"
+@import  "slick.scss"
+@import  "slick-theme.scss"
+
+section#top, 
+section#center,
+section#bottom 
+	padding: 0 60px
+
+.loadingScreen
+	display: flex
+	align-items: center
+	justify-content: center
+	position: absolute
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	z-index: 9999	
+	background-color: #000
+
+	.logoSmall
+		height: 94px
+		width: 90px
+		background: url('../img/logo_small.svg') no-repeat center
+		background-size: cover
+
+.mainPage
+	overflow: hidden
+	position: absolute
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	background: url('../img/bg.png') center no-repeat
+	background-size: cover
+		
+	section#center			
+
+		.sideText
+			text-transform: uppercase
+			font-family: Open Sans
+			font-size: 16px
+			color: #fff
+			letter-spacing: 8px
+			width: 358px
+			line-height: 30px
+			padding-left: 35px
+			padding-top: 60px
+
+			p
+				margin-top: 0
+				display: inline-block
+				margin-bottom: 5px
+
+			.arrow
+				background: url('../img/arrow_right_large.svg') center no-repeat
+				background-size: contain
+				width: 40px
+				height: 14px
+				margin-top: 15px
+
+
+		#sideTextRight
+			position: absolute
+			right: 50px
+			bottom: 16%
+			display: inline-block
+			font-size: 20px
+			letter-spacing: 10px
+			width: unset
+
+		.largeLetterRow
+			position: absolute
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			display: flex
+			align-items: center
+			justify-content: center
+			pointer-events: none
+
+			.announce
+				color: #fff
+				font-family: Moon
+				font-weight: 600
+				font-size: 60px
+				position: absolute
+				letter-spacing: 12px
+				padding-bottom: 30px
+
+			.largeWord
+				padding: 0 40px
+				display: flex
+				justify-content: space-between
+
+			.largeLetterBlock
+				display: inline-block
+				position: relative
+				margin: 0 10px
+				z-index: 1
+
+				.letter
+					font-family: SegoeUI
+					font-size: 230px
+					font-weight: 800
+					opacity: 0.1
+					z-index: 2
+					position: relative
+					color: #fff
+
+				.mimicLetter
+					z-index: 2
+					position: relative
+
+					.letterPart
+						overflow: hidden
+						left: 0
+						top: 0
+						position: absolute
+						opacity: 1
+						background-color: #242324
+
+						.part
+
+						.blurredSatellite
+							z-index: 1 !important
+							opacity: 1 !important
+							filter: blur(9px)
+							//background-image: url('../img/satellite_blurred.png') !important
+
+					#letterPart_1
+						height: 159px
+						width: 48px
+						left: 16px
+						top: 143px
+
+						.blurredSatellite
+							top: -117%
+							right: -323%
+
+					#letterPart_2
+						height: 37px
+						width: 53px
+						left: 64px
+						top: 143px
+
+						.blurredSatellite
+							top: -502%
+							right: -192%
+
+					#letterPart_3
+						height: 37px
+						width: 50px
+						left: 64px
+						top: 204px
+
+						.blurredSatellite
+							top: -667%
+							right: -209%
+
+					#letterPart_4
+						height: 37px
+						width: 54px
+						left: 64px
+						top: 265px
+
+						.blurredSatellite
+							top: -833%
+							right: -187%
+							
+
+				.rotatedText
+					transform: rotate(90deg)
+					position: absolute
+					top: 50%
+					font-family: SegoeUI
+					font-weight: 600
+					font-size: 13px
+					color: #999899
+
+			#letter_2
+
+				.rotatedText
+					left: -70px
+
+			#letter_6
+				
+				.letter
+					opacity: 0
+
+				.rotatedText
+					right: -50px
+					z-index: 3
+
+					svg
+						position: relative
+						z-index: 3
+
+				.satellite
+					position: absolute
+					top: -10%
+					right: -40%
+					background-image: url('../img/satellite.png')
+					background-position: center
+					background-repeat: no-repeat
+					background-size: contain
+					width:  495px //736px
+					height: 280px //416px
+					z-index: 1
+					opacity: 1
+
+	.slider
+		z-index: 1
+		//border: solid 2px #fff
+		position: absolute
+		top: 65%
+		left: 17.5%
+		width: 65%
+		margin: 0 auto
+
+		&:focus
+			outline: none
+			border: none
+
+		.slide
+			height: 200px
+			display: flex !important
+			align-items: center
+			justify-content: center
+
+			&:focus,
+			&:hover,
+			&:active
+				outline: none
+				border: none
+
+			.playButtonBlock
+				height: 200px
+				position: relative
+				display: flex
+				align-items: center
+				justify-content: center
+
+				#playButton
+					pointer-events: none
+					width: 70%
+					//position: absolute
+
+				#blur
+					position: absolute
+					width: 20%
+
+			.slideText
+				font-family: Open Sans
+				letter-spacing: 5px
+				font-size: 16px
+				text-align: center
+				color: #fff
+
+section#top
+
+	.wave
+		border-radius: 100%
+		border: 1px rgba(255,255,255,0.5) solid
+		position: absolute
+		top: -3px
+		left: -3px
+		height: 1px
+		width: 1px
+		z-index: 0
+
+	header
+		z-index: 1	
+		padding-top: 30px
+		position: relative
+		text-align: center
+		
+		.languageSelect
+			position: absolute
+			left: 0
+			top: 30px
+
+			.languageImg
+				width: 25px
+				height: 15.9px
+				background-size: contain
+				background-repeat: no-repeat
+				opacity: 0.5
+				transition: 0.3s
+
+				&:hover
+					opacity: 1
+					transition: 0.3s
+					cursor: pointer
+
+		.logo
+			display: inline-block
+
+			.logoImg
+				background: url(../img/logo_text.svg) center no-repeat
+				background-size: contain
+				width: 125px
+				height: 17.6px
+
+			.logoText
+				text-transform: uppercase
+				font-family: Moon
+				font-size: 12px
+				font-weight: 600
+				color: #2A2A2C
+				margin-top: 15px
+				letter-spacing: 2px
+
+		.menuButton
+			background: url('../img/menu_icon.svg') center no-repeat
+			background-size: contain
+			position: absolute
+			right: 0
+			width: 24px
+			height: 18px
+			top: 30px
+
+			&:hover
+				cursor: pointer
+
+section#bottom
+	position: absolute
+	bottom: 0
+	left: 0
+	height: 50px
+	width: 100%
+	font-family: Open Sans
+	color: #fff
+	box-sizing: border-box
+	padding-top: 20px
+	z-index: 0
+
+	.wave
+		z-index: 0
+		border-radius: 100%
+		border: 1px rgba(255,255,255,0.5) solid
+		position: absolute
+		right: -3px
+		bottom: -3px
+		height: 1px
+		width: 1px 
+
+	.social
+		text-transform: uppercase
+		display: inline-block
+		letter-spacing: 4px
+		font-size: 13px
+		font-weight: 200
+
+		.text
+			margin-right: 70px
+			display: inline-block
+			position: relative
+			opacity: 0.3
+
+			&:after
+				content: ''
+				height: 1.5px
+				width: 50px
+				background-color: #fff
+				opacity: 1
+				position: absolute
+				left: 110%
+				top: 50%
+
+	a
+		color: inherit
+		opacity: 0.3
+		text-decoration: none
+
+		&:hover
+			opacity: 1
+			transition: 0.3s
+
+	.copyright
+		font-size: 14px
+		opacity: 0.3
+		float: right
+
+		&:after
+			content: ''
+			clear: both
+			display: block
+		
+
+
+
+.slick-dots
+	bottom: -50px
+	width: 30%
+	left: 35%
+
+	li
+		margin: 0 10px
+		width: 30px
+
+		&.slick-active
+
+			&:before
+				content: ''
+				height: 24px
+				width: 1px
+				position: absolute
+				bottom: 110%
+				left: 45%
+				background-color: #fff
+				opacity: 0.7
+
+			button
+				opacity: 1
+
+		button
+			color: #fff
+			opacity: 0.5
+			font-family: Josefin Sans
+			font-size: 16px
+			font-weight: 200
+
+			&:before
+				content: none
+
+.contactPage
+	display: none
+	overflow: hidden
+	position: absolute
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	background: url('../img/bg.png') center no-repeat
+	background-size: cover
+
+	section#center
+
+		.title
+			color: #fff
+			font-family: Moon
+			font-weight: 600
+			font-size: 60px
+			text-align: center
+			letter-spacing: 12px
+			padding-top: 20px
+
+		.contactformBlock
+			width: 45%
+			margin: 0 auto
+			padding-top: 100px
+
+			form
+				display: flex
+				flex-wrap: wrap
+				justify-content: space-between
+
+				.inputBlock
+					width: 35%
+
+					input
+						width: 100%
+
+					label
+						color: #636363
+						font-family: Segoe UI
+
+				.textareaBlock
+					margin-top: 30%
+					width: 100%
+
+					input
+						width: 100%
+						resize: none
+
+						
+				.inputBlock input,
+				.textareaBlock input
+					background-color: transparent
+					border: none
+					outline: none
+					border-bottom: 1.5px #636363 solid
+					color: #fff
+					font-family: Open Sans
+					font-size: 1.05em
+					padding: 5px 10px
+
+				::-webkit-input-placeholder
+					font-size: 0.95em
+					color: #636363
+					font-family: Segoe UI
+
+				:-ms-input-placeholder
+					font-size: 0.95em
+					color: #636363
+					font-family: Segoe UI
+
+				::-moz-placeholder
+					font-size: 0.95em
+					color: #636363
+					font-family: Segoe UI
+
+				:-moz-placeholder
+					font-size: 0.95em
+					color: #636363
+					font-family: Segoe UI
+
+			.submitBlock
+				width: 100%
+				text-align: center
+				padding-top: 80px
+		
+				button
+					text-align: center
+					background-color: rgba(255, 255, 255, 0.15)
+					border: none
+					outline: none
+					color: #9F9F9F
+					font-size: 1.1em
+					padding: 10px 45px 12px 45px
+					border-radius: 33px
+					letter-spacing: 1px
+					font-family: Open Sans
+					position: relative
+
+					&:after
+						content: ""
+						background: url("../img/arrow_right_small_white.svg") no-repeat
+						position: absolute
+						background-size: contain
+						right: 15px
+						top: 40%
+						height: 10px
+						width: 10px
+
+					&:hover
+						cursor: pointer
+
+		.sat
+			position: absolute
+			opacity: 0.8
+			top: 150px
+			right: 0
+			background-image: url('../img/satellite.png')
+			background-position: center
+			background-repeat: no-repeat
+			background-size: contain
+			width:  495px-50px
+			height: 280px-50px
+			transform: rotate(25deg)
+
+.menuBlock
+	z-index: 10000	
+	overflow: hidden
+	position: absolute
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	background-color: #000
+	display: none	
+
+	section#top
+
+		header
+
+			.menuButton
+				background-image: url('../img/menu_close.svg')
+	
+	section#center
+
+		ul.menu
+			padding-top: 50px
+
+			li
+				width: 100%
+				text-align: center
+				margin: 100px 0
+
+				.menuSection
+					opacity: 0.5
+					transition: 0.3s
+					text-transform: uppercase
+					letter-spacing: 30px
+					font-family: Open Sans
+					color: #fff
+					font-size: 3em
+					display: inline-block
+
+					&:hover
+						opacity: 1
+						transition: 0.3s
+						cursor: pointer
+
+					&.active 
+						opacity: 1
+
+		.languageBlock
+			text-align: center
+
+			.languageSelect
+				display: inline-block
+
+				.languageImg
+					width: 45px
+					height: 35px
+					background-size: contain
+					background-repeat: no-repeat
+					opacity: 0.5
+					transition: 0.3s
+
+					&:hover
+						opacity: 1
+						transition: 0.3s
+						cursor: pointer
+
+				.arrow
+					background: url('../img/arrow_down_small.svg') center no-repeat
+					background-size: contain
+					width: 20px
+					height: 20px
+					margin: 30px auto 0 auto
+

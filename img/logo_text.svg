@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156.825" height="24.76" viewBox="0 0 156.825 24.76">
+  <g id="Logo" transform="translate(-5.758 2.299)">
+    <g id="Logo_title" transform="translate(7.791)">
+      <path id="S" d="M-328.332-93.324a4.353,4.353,0,0,0-2.469-2.943,8.14,8.14,0,0,0-4.285-.8,5.466,5.466,0,0,0-2.22.681,5.451,5.451,0,0,0-2.839,4.44,3.945,3.945,0,0,0,1.021,3.013c1.464,1.578,3.233,1.767,5.005,1.824a9.746,9.746,0,0,1,1.22.1,5.314,5.314,0,0,1,4.068,2.49c.349.574,1.316,2.833-.868,5.5a6.21,6.21,0,0,1-6.008,1.742c-3.574-.726-4.338-2.966-4.457-3.618" transform="translate(340.163 97.167)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.5"/>
+      <path id="Pfad_1230" data-name="Pfad 1230" d="M-45.535,144.967H-48.51s6.648.031,8.011-.032a4.933,4.933,0,0,0,2.525-.637,5.118,5.118,0,0,0,2.147-2.07,4.683,4.683,0,0,0,.578-2.334,4.754,4.754,0,0,0-2.305-4.067,5.376,5.376,0,0,0-3.1-.886c-1.205-.01-2.687,0-4.347-.007-2.192-.01-2.448-.044-2.441-.008s.011,4.5.011,4.5v15.513" transform="translate(72.795 -134.909)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.5"/>
+      <path id="Pfad_1231" data-name="Pfad 1231" d="M0,.048C1.825.012,4.339.034,7.268.024s3.27-.044,3.261-.008-.015,4.5-.015,4.5V20.026" transform="translate(153.043 20.093) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.5"/>
+      <path id="Pfad_1232" data-name="Pfad 1232" d="M.282,41.06S4.819,29.791,7,24.463c.48-1.139,1.253-3.156,1.327-3.293.075-.162,1.581,4.022,3.614,8.853.915,2.363,1.971,4.769,2.742,6.793,1.01,2.477,1.718,4.247,1.718,4.247" transform="translate(48.939 -21.023)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.5"/>
+      <line id="Linie_22" data-name="Linie 22" y2="19.889" transform="translate(77.841 0.137)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.5"/>
+      <g id="X" transform="translate(90.357 0.137)">
+        <line id="Linie_23" data-name="Linie 23" x1="13.799" y2="19.889" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.5"/>
+        <line id="Linie_24" data-name="Linie 24" x1="13.799" y1="19.889" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.5"/>
+      </g>
+      <circle id="Ellipse_239" data-name="Ellipse 239" cx="1.921" cy="1.921" r="1.921" transform="translate(55.435 14.73)" fill="#fff"/>
+      <g id="E" transform="translate(117.54 0.033)">
+        <path id="Pfad_1233" data-name="Pfad 1233" d="M10.505,134.933c-1.366-.036-7.174.01-9.366,0s-2.448-.044-2.441-.008,0,1.986,0,4.456-.009,2.455-.009,5.426c0,4.058.021,9.1,0,10.044a13.543,13.543,0,0,0,2.54.029c.453,0,1.533,0,1.533,0s5.815,0,7.742-.006" transform="translate(1.335 -134.909)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.5"/>
+        <circle id="Ellipse_240" data-name="Ellipse 240" cx="1.921" cy="1.921" r="1.921" transform="translate(5.933 8.145)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Logo_line" data-name="Logo line" transform="translate(0 2.916)">
+      <path id="Line" d="M157.114,20.646S93.294,10.061,63.781,9.459c-11.733-.239-31.388-.98-44.839-1.826C11.507,7.166,6,6.471,4.891,6.283s-3.148-.755-3.148-.755a4.7,4.7,0,0,1-.212-1.865,5.626,5.626,0,0,1,.407-1.641s1.12.181,1.882.312c3.545.612,8.229,2.044,13.849,2.626,12.573,1.3,29.842,1.616,49.672,2.308C95.208,8.24,157.619,20.2,157.619,20.2Z" transform="translate(4.256 -1.582)" fill="#141415"/>
+    </g>
+  </g>
+</svg>

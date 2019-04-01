@@ -1,0 +1,116 @@
+@import  "fonts.sass"
+
+section#top, 
+section#center,
+section#bottom 
+	padding: 0 60px
+
+.loadingScreen
+	display: flex
+	align-items: center
+	justify-content: center
+	position: absolute
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	background-color: #000
+	display: none
+
+	.logoSmall
+		height: 94px
+		width: 90px
+		background: url('../img/logo_small.svg') no-repeat center
+		background-size: cover
+
+.playButtonBlock
+	position: relative
+
+
+
+.mainPage
+	overflow: hidden
+	position: absolute
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	background: url('../img/bg.png') center no-repeat
+	background-size: cover
+
+	section#top
+
+		header
+			padding-top: 30px
+			position: relative
+			text-align: center
+			
+			.languageSelect
+				position: absolute
+				left: 0
+				top: 30px
+
+
+				.languageImg
+					width: 33px
+					height: 21px
+					background-size: contain
+
+			.logo
+				display: inline-block
+
+				.logoText
+					text-transform: uppercase
+					font-family: Moon
+					font-size: 15px
+					font-weight: 600
+					color: #2A2A2C
+					margin-top: 5px
+					letter-spacing: 2px
+
+			.menuButton
+				background: url('../img/menu_icon.svg') center no-repeat
+				background-size: contain
+				position: absolute
+				right: 0
+				width: 24px
+				height: 18px
+				top: 30px
+		
+	section#center					
+
+		.sideText
+			text-transform: uppercase
+			font-family: Open Sans
+			font-size: 22px
+			color: #fff
+			letter-spacing: 14px
+			width: 358px
+			line-height: 39px
+			padding-left: 35px
+			padding-top: 20px
+
+			.arrow
+				background: url('../img/arrow_right_large.svg') center no-repeat
+				background-size: contain
+				width: 57px
+				height: 20px
+
+		.largeWord
+			padding: 0 60px
+			display: flex
+			justify-content: space-between
+			position: relative
+			bottom: 70px
+
+		.largeLetterBlock
+			display: inline-block
+			overflow: hidden
+
+			.letter
+				font-family: SegoeUI
+				font-size: 281px
+				font-weight: 800
+				opacity: 0.1
+				z-index: 1
+				color: #fff
